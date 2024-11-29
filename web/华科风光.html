@@ -6,7 +6,7 @@
     <title>华中科技大学风光</title>
     <style>
         body {
-            background-image: url('E:\编程练习\ljx873\image\西沉长流.jpg'); /* 指定背景图片 */
+            background-image: url('../image/xi.jpg'); /* 指定背景图片 */
             background-size: cover; /* 背景图片覆盖整个页面 */
             background-position: center; /* 背景图片居中显示 */
             background-repeat: no-repeat; /* 背景图片不重复 */
@@ -24,6 +24,7 @@
             margin: auto;
             padding: 20px;
             border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
         }
         img {
             max-width: 100%; /* 使图片自适应容器宽度 */
@@ -35,15 +36,23 @@
             right: 20px; /* 距离右侧20像素 */
             top: 20px; /* 距离顶部20像素 */
             display: inline-block; /* 使链接块显示 */
-            border: 2px solid black; /* 添加边框 */
+            border: 2px solid gold; /* 添加边框 */
             padding: 10px 15px; /* 内边距 */
             text-decoration: none; /* 去掉下划线 */
-            color: black; /* 字体颜色 */
+            color: gold; /* 字体颜色 */
             border-radius: 5px; /* 圆角边框 */
             transition: background-color 0.3s; /* 背景色过渡效果 */
         }
         .return-link:hover {
             background-color: #f0f0f0; /* 悬停时背景色变化 */
+        }
+        .bottom-links {
+            margin-top: 40px; /* 与上方内容的间隔 */
+            text-decoration: underline; /* 下划线样式 */
+            color: gold; /* 字体颜色改为白色 */
+        }
+        .bottom-links a {
+            color: gold; /* 链接字体颜色改为白色 */
         }
     </style>
 </head>
@@ -54,23 +63,23 @@
     
     <h2>校园美景</h2>
     <p>华中科技大学是中国著名的高等学府之一，身为一名huster，这里的美景深深打动着我。</p>
-    <img src="E:\编程练习\ljx873\image\华科风景1.png" alt="华科风景1">
+    <img src="../image/hk1.jpg" alt="华科风景1">
 
     <h2>晨曦中的华科</h2>
     <p>清晨的华科，旭日初升，此时的校园格外宁静。</p>
-    <img src="E:\编程练习\ljx873\image\华科风景2.png" alt="华科风景2">
+    <img src="../image/hk2.jpg" alt="华科风景2">
 
 
     <h2>夜幕下的华科</h2>
     <p>夜晚的华科别有一番风味，灯光的映衬使其显得更加美丽动人。</p>
-    <img src="E:\编程练习\ljx873\image\华科风景3.png" alt="华科风景3">
-    <img src="E:\编程练习\ljx873\image\华科风景4.png" alt="华科风景4">
+    <img src="../image/hk3.jpg" alt="华科风景3">
+    <img src="../image/hk4.jpg" alt="华科风景4">
 
     <p>不论是学习还是生活，华中科技大学都提供了一个美丽而充实的环境，让每个学子都能在这里实现自己的梦想。</p>
 </div>
 
 <!-- 返回主页链接 -->
-<a href="E:\编程练习\ljx873\web\index.html.html" class="return-link">返回我的主页</a>
+<a href="..\index.html.html" class="return-link">返回我的主页</a>
 
 <div class="bottom-links">
     <a href="https://train-any.github.io/room110/">寝室主页</a> | 

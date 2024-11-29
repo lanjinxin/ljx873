@@ -6,7 +6,7 @@
     <title>我的兴趣爱好</title>
     <style>
         body {
-            background-image: url('E:\编程练习\ljx873\image\西沉长流.jpg'); /* 指定背景图片 */
+            background-image: url('../image/xi.jpg'); /* 指定背景图片 */
             background-size: cover; /* 背景图片覆盖整个页面 */
             background-position: center; /* 背景图片居中显示 */
             background-repeat: no-repeat; /* 背景图片不重复 */
@@ -24,6 +24,7 @@
             margin: auto;
             padding: 20px;
             border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
         }
         img {
             max-width: 100%; /* 使图片自适应容器宽度 */
@@ -35,15 +36,23 @@
             right: 20px; /* 距离右侧20像素 */
             top: 20px; /* 距离顶部20像素 */
             display: inline-block; /* 使链接块显示 */
-            border: 2px solid black; /* 添加边框 */
+            border: 2px solid gold; /* 添加边框 */
             padding: 10px 15px; /* 内边距 */
             text-decoration: none; /* 去掉下划线 */
-            color: black; /* 字体颜色 */
+            color: gold; /* 字体颜色 */
             border-radius: 5px; /* 圆角边框 */
             transition: background-color 0.3s; /* 背景色过渡效果 */
         }
         .return-link:hover {
             background-color: #f0f0f0; /* 悬停时背景色变化 */
+        }
+        .bottom-links {
+            margin-top: 40px; /* 与上方内容的间隔 */
+            text-decoration: underline; /* 下划线样式 */
+            color: gold; /* 字体颜色改为白色 */
+        }
+        .bottom-links a {
+            color: gold; /* 链接字体颜色改为白色 */
         }
     </style>
 </head>
@@ -54,17 +63,17 @@
     
     <h2>足球</h2>
     <p>足球是我最喜欢的运动之一。每当看到球场上快速移动的球员和激烈的比赛，我都会感受到无比的兴奋。在高中的体育课上，我经常跟朋友们一起踢球，不仅能够锻炼身体，缓解学习压力，还增进了我们的友谊。绿茵球场上，在空中飞舞着的不仅是一个球，更是我们的青春与梦想。</p>
-    <img src="E:\编程练习\ljx873\image\足球.png" alt="足球">
+    <img src="../image/football.jpg" alt="足球">
     <h2>魔方</h2>
     <p>解魔方是一项极具挑战性的智力游戏。我从小就对这个五彩缤纷的立方体产生了浓厚的兴趣。通过不断练习，我已经掌握了解决好几种不同魔方的方法，并且乐于挑战更高难度的魔方。我喜欢在空闲时间，尝试新的方法并努力提高自己的速度。在这过程中，我不仅锻炼了逻辑思维能力，也培养了耐心和专注力。</p>
-    <img src="E:\编程练习\ljx873\image\魔方.png" alt="魔方">
+    <img src="../image/mf.jpg" alt="魔方">
     <h2>荒野乱斗</h2>
     <p>荒野乱斗是一款让我爱不释手的多人在线游戏。在这款游戏中，我可以与来自世界各地的玩家一起组队，进行刺激的对战。每个角色都有独特的技能和特点，这让我在选择角色时需要根据团队组合来做出策略性的决定。我享受与朋友一起开黑带来的乐趣，同时也喜欢挑战各种不同的游戏模式，提升自己的游戏技巧。</p>
-    <img src="E:\编程练习\ljx873\image\荒野乱斗.png" alt="荒野乱斗">
+    <img src="../image/hyld.jpg" alt="荒野乱斗">
 </div>
 
 <!-- 返回主页链接 -->
-<a href="E:\编程练习\ljx873\web\index.html.html" class="return-link">返回我的主页</a>
+<a href="..\index.html.html" class="return-link">返回我的主页</a>
 
 <div class="bottom-links">
     <a href="https://train-any.github.io/room110/">寝室主页</a> | 

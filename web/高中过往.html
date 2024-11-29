@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的高中生活</title>
+    <title>高中过往</title>
     <style>
         body {
-            background-image: url('E:\编程练习\ljx873\image\西沉长流.jpg'); /* 指定背景图片 */
+            background-image: url('../image/xi.jpg'); /* 指定背景图片 */
             background-size: cover; /* 背景图片覆盖整个页面 */
             background-position: center; /* 背景图片居中显示 */
             background-repeat: no-repeat; /* 背景图片不重复 */
@@ -24,7 +24,7 @@
             margin: auto;
             padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
         }
         img {
             max-width: 100%; /* 使图片自适应容器宽度 */
@@ -36,15 +36,23 @@
             right: 20px; /* 距离右侧20像素 */
             top: 20px; /* 距离顶部20像素 */
             display: inline-block; /* 使链接块显示 */
-            border: 2px solid black; /* 添加边框 */
+            border: 2px solid gold; /* 添加边框 */
             padding: 10px 15px; /* 内边距 */
             text-decoration: none; /* 去掉下划线 */
-            color: black; /* 字体颜色 */
+            color: gold; /* 字体颜色 */
             border-radius: 5px; /* 圆角边框 */
             transition: background-color 0.3s; /* 背景色过渡效果 */
         }
         .return-link:hover {
             background-color: #f0f0f0; /* 悬停时背景色变化 */
+        }
+        .bottom-links {
+            margin-top: 40px; /* 与上方内容的间隔 */
+            text-decoration: underline; /* 下划线样式 */
+            color: gold; /* 字体颜色改为白色 */
+        }
+        .bottom-links a {
+            color: gold; /* 链接字体颜色改为白色 */
         }
     </style>
 </head>
@@ -65,18 +73,18 @@
     <h2>留念</h2>
     <p>高中时光让我成长了许多，从一个稚嫩的少年逐渐走向成熟。未来的道路上，我会继续带着这些宝贵的经验，勇敢追寻自己的梦想。</p>
     
-    <img src="E:\编程练习\ljx873\image\那年.png" alt="那年">
-    <img src="E:\编程练习\ljx873\image\最后球赛.png" alt="最后球赛">
+    <img src="../image/honor.jpg" alt="那年">
+    <img src="../image/game.jpg" alt="最后球赛">
 
     <!-- 添加背景音乐 -->
     <audio controls autoplay loop>
-        <source src="E:\编程练习\ljx873\image\起风了.mp3" type="audio/mpeg">
+        <source src="../image/wind.mp3" type="audio/mpeg">
     </audio>
 
 </div>
 
 <!-- 返回主页链接 -->
-<a href="E:\编程练习\ljx873\web\index.html.html"  class="return-link">返回我的主页</a>
+<a href="..\index.html.html"  class="return-link">返回我的主页</a>
 
 <div class="bottom-links">
     <a href="https://train-any.github.io/room110/">寝室主页</a> | 
